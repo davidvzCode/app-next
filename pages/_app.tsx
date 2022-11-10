@@ -4,7 +4,9 @@ import 'semantic-ui-css/semantic.min.css'
 import '../global.css'
 
 import CartProvider from '@store/Cart'
-
+export function reportWebVitals(metric) {
+    console.log(metric)
+}
 export default function MyApp({ Component, pageProps }: AppProps) {
     return (
         <Layout>
